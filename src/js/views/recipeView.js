@@ -2,10 +2,6 @@ import { elements } from './base';
 import { Fraction } from 'fractional';
 
 const formatCount = count => {
-    // count = 2.5
-    // count = 0.5
-    // count = 3
-
     if (count) {
         // to 4 decimal places * 10000
         const newCount = Math.round(count * 10000) / 10000;

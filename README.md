@@ -32,6 +32,10 @@ npm start
 * Remove bookmarks or delete user recipes.
 * LocalStorage keeps the data when users exit the app.
 
+## Deployed
+
+Deployed on [GitHub Pages](https://AzumaraJoseph.github.io/Forkify-Recipe-App)
+
 ### Note
 You will need to sign up for an API key at [Food2Fork](https://www.food2fork.com/about/api) to use in `Recipe.js`.
 

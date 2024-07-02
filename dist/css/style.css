@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0; }
-
 *,
 *::before,
 *::after {
@@ -508,3 +507,4 @@ body {
   .shopping__item:hover .shopping__delete {
     opacity: 1;
     visibility: visible; }
+

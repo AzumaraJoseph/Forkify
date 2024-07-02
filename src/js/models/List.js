@@ -17,9 +17,6 @@ export default class List {
     }
 
     deleteItem(id) {
-        // [2,4,8] splice(1, 1) returns 4, new array [2,8]
-        // [2,4,8] slice(1, 2) returns 4, new array [2,4,8]
-
         const index = this.items.findIndex(el => el.id === id);
         this.items.splice(index, 1);
     }

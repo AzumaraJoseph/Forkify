@@ -20,12 +20,12 @@ npm install
 # or if you use yarn
 yarn install
 
-## Bootstrap the application
-npm start
 ```
 
-### Features
+## Development server
+Run `npm start` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
 
+### Features
 * Query an ingredient to recieve a list of recipes containing that ingredient.
 * Easily bookmark or edit the servings of the selected recipe.
 * Create your own recipes and store them as user recipes.
